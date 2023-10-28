@@ -1,0 +1,22 @@
+# Ignore node_modules directory, where dependencies are installed
+node_modules/
+
+# Ignore npm's cache folder
+.npm/
+
+# Ignore logs and debug data
+logs/
+*.log
+npm-debug.log*
+
+# Ignore .env files that contain sensitive information
+.env
+
+# Ignore build and bundled files
+dist/
+build/
+out/
+*.out
+
+# Ignore editor and IDE-specific files
+.vscode/
